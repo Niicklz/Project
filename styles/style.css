@@ -1,6 +1,6 @@
 .main-cont {
     width: 100%;
-    min-width: 375px;
+    min-width: 300px;
     min-height: 100vh;
     background-image: url(/images/bg-mobile.png);
     background-size: cover;
