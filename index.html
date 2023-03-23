@@ -18,8 +18,10 @@
         
         <nav id="navBar" class="nav-bar">
             <figure id="logo" class="logo-cont"><img class="logo-img" src="/images/Logo.png" alt=""></figure>
-            <figure class="menu-icon-cont"><img class="menu-icon" src="/images/icons8-pokeball-48.png" alt=""></figure>
-            <div class="options">
+
+            <figure  class="menu-icon-cont"><img id="menuIcon" class="menu-icon" src="/images/icons8-pokeball-48.png" alt=""></figure>
+           
+            <div class="options " id="menu">
                <ul class="ul-options">
                 <li class="faq">FAQ</li>
                <li class="about">About</li>
@@ -29,8 +31,8 @@
         <section id="mainContent" class="main-content"></section>
 
         <div class="search-input-and-btn">
-            <input class="search-input" type="text" placeholder="Pokemon or ID">
-        <button class="search-btn">SEARCH!</button>
+        <input class="search-input" id="searchInput" type="text" placeholder="Pokemon or ID">
+        <button id="searchBtn" class="search-btn">SEARCH!</button>
         </div>
         
 
@@ -39,8 +41,11 @@
                 <img src="" alt="" id="imgPokemon" class="img-pokemon">
             </figure>
             <div class="stats-cont">
-                <figure class="pokemon-img-cont"> <img class="pokemon-img" src="/images/6O3E6FX56FCYFGW5NZFOKYGNY4.avif" alt=""></figure>
-                <h2 class="pokemon-name">Pikamon</h2>
+                <figure class="pokemon-img-cont">
+                    
+                     <img class="pokemon-img" id="pokemonImg" src="" alt=" ">
+                    </figure>
+                <h2 class="pokemon-name" id="pokemonName"></h2>
                 <p class="stats">
                     <span>HP:</span>
                     <span id="hp"></span> </p>
@@ -54,11 +59,11 @@
                 </p>
                 <p class="stats">
                     <span>SPATK:</span>
-                    <span id="special-attack"></span> </p>
+                    <span id="specialAttack"></span> </p>
                 </p>
                 <p class="stats">
                     <span>SPDEF:</span>
-                    <span id="special-defense"></span></p>
+                    <span id="specialDefense"></span></p>
                 <p class="stats"> 
                     <span>SPEED:</span>
                     <span id="speed"></span></p>
