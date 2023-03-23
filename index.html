@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/reset-min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="main-cont">
+    <main>
+        
+        <nav id="navBar" class="nav-bar">
+            <figure id="logo" class="logo-cont"><img class="logo-img" src="/images/Logo.png" alt=""></figure>
+            <figure class="menu-icon-cont"><img class="menu-icon" src="/images/icons8-pokeball-48.png" alt=""></figure>
+            <div class="options">
+               <ul class="ul-options">
+                <li class="faq">FAQ</li>
+               <li class="about">About</li>
+               <li class="poke-list">PokeList</li></ul>
+            </div>
+        </nav>
+        <section id="mainContent" class="main-content"></section>
+
+        <div class="search-input-and-btn">
+            <input class="search-input" type="text" placeholder="Pokemon or ID">
+        <button class="search-btn">SEARCH!</button>
+        </div>
+        
+
+        <div class="container">
+            <figure class="poke-img-cont">
+                <img src="" alt="" id="imgPokemon" class="img-pokemon">
+            </figure>
+            <div class="stats-cont">
+                <figure class="pokemon-img-cont"> <img class="pokemon-img" src="/images/6O3E6FX56FCYFGW5NZFOKYGNY4.avif" alt=""></figure>
+                <h2 class="pokemon-name">Pikamon</h2>
+                <p class="stats">
+                    <span>HP:</span>
+                    <span id="hp"></span> </p>
+                <p class="stats">
+                    <span>ATK:</span>
+                    <span id="attack"></span> </p>
+                </p>
+                <p class="stats">
+                    <span>DEF:</span>
+                    <span id="defense"></span> </p>
+                </p>
+                <p class="stats">
+                    <span>SPATK:</span>
+                    <span id="special-attack"></span> </p>
+                </p>
+                <p class="stats">
+                    <span>SPDEF:</span>
+                    <span id="special-defense"></span></p>
+                <p class="stats"> 
+                    <span>SPEED:</span>
+                    <span id="speed"></span></p>
+                    
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <h3 class="footerDescription">
+            This application uses the <a href="https://pokeapi.co/">https://pokeapi.co/</a> API</h3>
+    </footer>
+</div>
+        
+    
+<script src="/js/main.js"></script>   
+    
+</body>
+</html>
