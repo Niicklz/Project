@@ -5,6 +5,7 @@
     background-image: url(/images/bg-mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
 
 }
 
@@ -160,6 +161,18 @@ z-index: -1000;
     margin-bottom: 12px;
 }
 
+footer {
+    display: flex;
+   
+    color: white;
+    height: 30px;
+    text-align: center;
+
+}
+
+.api-ref {
+    color: cyan;
+}
 
 
 
