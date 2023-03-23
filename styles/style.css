@@ -166,6 +166,7 @@ z-index: -1000;
 }
 
 footer {
+    margin-top: 32px;
     display: flex;
 
    
