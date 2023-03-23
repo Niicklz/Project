@@ -45,8 +45,8 @@ main {
 
 
 .options {
-width: 0px;
-height: 0px;
+    width: 50%;
+    height: 200px;
 position: absolute;
 top: 40px;
 right: 50px;
@@ -61,8 +61,7 @@ z-index: -1000;
 
 }
 .active {
-    width: 50%;
-    height: 200px;
+    
     z-index: 1000;
 }
 .ul-options {
